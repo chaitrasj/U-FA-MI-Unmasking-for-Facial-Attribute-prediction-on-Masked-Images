@@ -1,2 +1,8 @@
 # U-FA-MI-Unmasking-for-Facial-Attribute-prediction-on-Masked-Images
 Project work in which we analysed the performances of existing state of the art face attribute prediction models on masked faces and proposed solution to improve them using an image inpainting framework
+
+Summary:
+
+Face attribute prediction has applications in surveillance, face attribute manipulation, biometric recognition, etc. State-of- the-art deep models for facial attribute prediction assume the availability of full-face images. The COVID-19 pandemic has opened a new challenge for these models wherein the face gets partially covered due to a face mask. This work aims to find if existing face attribute prediction models are suitable for masked faces by creating masked versions of the existing face attribute dataset. We observe a drop in the performance of these models on masked faces, and to overcome that, we propose a novel Unmasking technique (dubbed as U-FA-MI) via a two-stage training pipeline. In the first stage, we pro- pose a mask detection technique that detects the bounding box of the masked region on the prepared masked samples. In the second stage, we use an existing image inpainting tech- nique, and we aid the training via our attribute consistency loss to generate the unmasked images. Our U-FA-MI frame- work can easily be plugged in with any attribute prediction network and does not require retraining. We experimentally validate our proposed method where we obtain a significant boost of 10.45% in average balanced accuracy on masked images of CelebA dataset.
+
+Please find the attched pdf in this repository for more details.
